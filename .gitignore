@@ -1,0 +1,12 @@
+node_modules/
+dist/
+release/
+coverage/
+*.log
+npm-debug.log*
+.DS_Store
+.env
+.env.*
+!.env.example
+F盘部署/*安装版.exe
+F盘部署包.zip
