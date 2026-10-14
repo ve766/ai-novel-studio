@@ -42,7 +42,7 @@ npm run dist:win         # Windows x64 安装版与便携版
 npm run verify:package   # 检查安装包、Electron 入口和 SHA-256
 ```
 
-测试只使用本地临时数据和模拟模型响应，不调用真实模型或云端 API。推送 `v*` 标签会触发 Windows 构建、测试、安装启动检查并发布 GitHub Release。
+测试只使用本地临时数据和模拟模型响应，不调用真实模型或云端 API。Windows x64 构建、安装包结构验证与 SHA-256 清单均已在本机完成；真实 Windows 安装启动检查尚待 GitHub Actions 权限配置后启用。
 
 ## 许可
 
